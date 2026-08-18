@@ -1,0 +1,29 @@
+🛡️ PortSwigger Web Security Academy — First API Testing Lab Completed!
+
+I just completed my first PortSwigger Web Security Academy lab on API Documentation. 🎯
+
+In this lab, I learned how publicly exposed API documentation can reveal the application's available endpoints, HTTP methods, parameters, and functionality.
+
+🔎 What I practiced
+API reconnaissance
+Identifying API documentation
+Understanding API endpoints
+Analyzing HTTP methods
+Using Burp Suite Repeater
+Reading API documentation to discover available functionality
+Identifying an insecure API endpoint
+Sending a DELETE request through the API
+Successfully deleting the carlos user account in the PortSwigger-controlled lab environment
+
+The biggest lesson for me was:
+
+API documentation can reveal functionality that may not be obvious from the normal web interface.
+
+This was a great hands-on introduction to API security testing, and I'm looking forward to continuing through the remaining API testing labs.
+
+📚 Platform: PortSwigger Web Security Academy
+🛠️ Tool: Burp Suite
+🎯 Topic: API Testing — API Documentation
+🧪 Environment: Authorized PortSwigger lab
+
+#CyberSecurity #APIsecurity #APITesting #BurpSuite #PortSwigger #WebSecurity #EthicalHacking #CyberSecurityLearning #BugBounty #InfoSec #Pentesting #LearningInPublic
