@@ -15,6 +15,7 @@ Academy lab environments.
 |---|---|---|
 | 01 | API Documentation | ✅ Completed |
 | 02 | Finding & Exploiting an Unused API Endpoint | ✅ Completed |
+| 03 | Exploiting a Mass Assignment Vulnerability | ✅ Completed |
 
 ## Tools Used
 
