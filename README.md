@@ -16,7 +16,7 @@ Academy lab environments.
 | 01 | API Documentation | ✅ Completed |
 | 02 | Finding & Exploiting an Unused API Endpoint | ✅ Completed |
 | 03 | Exploiting a Mass Assignment Vulnerability | ✅ Completed |
-
+| 04 | Server-Side Parameter Pollution | ✅ Completed |
 ## Tools Used
 
 - Burp Suite
