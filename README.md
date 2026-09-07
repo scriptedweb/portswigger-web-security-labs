@@ -17,6 +17,7 @@ Academy lab environments.
 | 02 | Finding & Exploiting an Unused API Endpoint | ✅ Completed |
 | 03 | Exploiting a Mass Assignment Vulnerability | ✅ Completed |
 | 04 | Server-Side Parameter Pollution | ✅ Completed |
+| 05 | File Path Traversal | ✅ Completed |
 ## Tools Used
 
 - Burp Suite
