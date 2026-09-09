@@ -18,6 +18,8 @@ Academy lab environments.
 | 03 | Exploiting a Mass Assignment Vulnerability | ✅ Completed |
 | 04 | Server-Side Parameter Pollution | ✅ Completed |
 | 05 | File Path Traversal | ✅ Completed |
+| 06 | Unprotected Functionality | ✅ Completed |
+| 07 | Unprotected admin functionality with unpredictable URL | ✅ Completed |
 ## Tools Used
 
 - Burp Suite
