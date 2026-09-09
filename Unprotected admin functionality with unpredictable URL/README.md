@@ -1,4 +1,4 @@
-##Unprotected Functionality with Unpredictable URL##
+# Unprotected Functionality with Unpredictable URL
 📌 Overview
 
 I completed the Unprotected Functionality with Unpredictable URL lab on PortSwigger Web Security Academy using Burp Suite.
