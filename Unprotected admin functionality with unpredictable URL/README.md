@@ -5,11 +5,11 @@ I completed the Unprotected Functionality with Unpredictable URL lab on PortSwig
 
 The lab demonstrated how an application can attempt to hide sensitive functionality behind an unpredictable URL while still failing to enforce proper access control.
 
-🎯 Objective
+# 🎯 Objective
 
 Access the hidden administrator panel and delete the user Carlos.
 
-🔎 Reconnaissance
+# 🔎 Reconnaissance
 
 I inspected the application's page source looking for information about hidden functionality.
 
@@ -21,7 +21,7 @@ The administrator URL contained an unpredictable path similar to:
 
 Although the path was difficult to guess, it was exposed through the application's client-side code.
 
-🔓 Exploitation
+# 🔓 Exploitation
 
 After identifying the administrator URL, I copied the path and requested it directly through the browser.
 
@@ -35,7 +35,7 @@ and deleted the account.
 
 The lab was successfully completed.
 
-🧠 Key Takeaway
+# 🧠 Key Takeaway
 
 Making an administrative URL difficult to guess does not provide effective access control.
 
@@ -49,7 +49,7 @@ Reconnaissance
 
 The application must therefore perform server-side authorization checks whenever sensitive functionality is requested.
 
-🔐 Security Principle
+# 🔐 Security Principle
 
 Unpredictable ≠ Protected
 
