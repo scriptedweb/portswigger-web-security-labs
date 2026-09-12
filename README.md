@@ -22,6 +22,7 @@ Academy lab environments.
 | 07 | Unprotected admin functionality with unpredictable URL | ✅ Completed |
 | 08 | User Role Controlled by Request Parameter | ✅ Completed |
 | 09 | Horizontal Privilege Escalation — IDOR | ✅ Completed |
+| 10 | User ID Controlled by Request Parameter with Password Disclosure | ✅ Completed |
 ## Tools Used
 
 - Burp Suite
