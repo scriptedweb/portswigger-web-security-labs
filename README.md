@@ -20,6 +20,7 @@ Academy lab environments.
 | 05 | File Path Traversal | ✅ Completed |
 | 06 | Unprotected Functionality | ✅ Completed |
 | 07 | Unprotected admin functionality with unpredictable URL | ✅ Completed |
+| 08 | User Role Controlled by Request Parameter | ✅ Completed |
 ## Tools Used
 
 - Burp Suite
