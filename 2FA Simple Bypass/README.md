@@ -1,27 +1,72 @@
-## 🔐 Another PortSwigger Lab Completed — 2FA Simple Bypass
+## 2FA Simple Bypass — PortSwigger Lab
+# 📌 Overview
 
-Today, I completed another PortSwigger Web Security Academy lab focused on 2FA Simple Bypass.
+I completed the 2FA Simple Bypass lab on PortSwigger Web Security Academy using Burp Suite.
 
-In the lab, I first authenticated using the provided user credentials and successfully completed the OTP verification sent to my email.
+The lab demonstrated an authentication flaw where the application failed to properly enforce the second factor before granting access to a protected account page.
 
-I then signed out and logged in using Carlos' credentials. When the application requested the 2FA code, I tested whether the application had properly enforced the second authentication step.
+# 🎯 Objective
 
-Instead of entering the OTP, I changed the URL directly to:
+Access Carlos' account without completing the required 2FA verification.
 
-# /my-account
+# 🔐 Authentication Flow
 
-The application granted access to the protected account page without requiring the 2FA verification to be completed.
+The normal login process was:
 
-## 🎯 Lab successfully solved.
+Username + Password
+        ↓
+OTP Verification
+        ↓
+/my-account
 
-# 🧠 Key Takeaway
+I first logged in using the provided user's credentials and successfully completed the OTP verification.
 
-This lab taught me that implementing an OTP page is not enough.
+# 🧪 Testing the 2FA Enforcement
 
-The application must ensure that 2FA verification is successfully completed before allowing access to protected resources.
+I then logged out and authenticated using Carlos' credentials.
 
-If a user can simply bypass the verification page and directly access /my-account, the second authentication factor has effectively been bypassed.
+The application requested an OTP:
 
-Another hands-on lesson in Authentication, Access Control, Web Security, and Burp Suite. 🚀
+Username + Password
+        ↓
+OTP requested
 
-#Cybersecurity #WebSecurity #PortSwigger #Pentesting #BurpSuite #AppSec #EthicalHacking
+Instead of entering the OTP, I directly changed the URL to:
+
+/my-account
+
+The application allowed me to access the protected account page.
+
+# 💥 Impact
+
+The application was treating the user as sufficiently authenticated before the 2FA process had been completed.
+
+This meant that an attacker who obtained a user's username and password could potentially bypass the second authentication step by directly requesting a protected resource.
+
+## 🧠 Key Takeaway
+
+Showing a 2FA verification page is not enough — the server must enforce successful 2FA verification before granting access to protected resources.
+
+A secure authentication flow should look like:
+
+Username + Password
+        ↓
+Correct credentials?
+        ↓
+      YES
+        ↓
+2FA verification
+        ↓
+Correct OTP?
+        ↓
+      YES
+        ↓
+Create fully authenticated session
+        ↓
+Access protected resources
+
+The key lesson from this lab was understanding that authentication is about what the server actually enforces, not just what the user interface appears to require.
+
+Lab Status: ✅ Solved
+
+#Cybersecurity #WebSecurity #PortSwigger #Pentesting #BurpSuite #Authentication #AppSec
