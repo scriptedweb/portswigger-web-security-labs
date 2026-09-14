@@ -23,6 +23,7 @@ Academy lab environments.
 | 08 | User Role Controlled by Request Parameter | ✅ Completed |
 | 09 | Horizontal Privilege Escalation — IDOR | ✅ Completed |
 | 10 | User ID Controlled by Request Parameter with Password Disclosure | ✅ Completed |
+| 11 | Username Enumeration via Different Responses | ✅ Completed |
 ## Tools Used
 
 - Burp Suite
