@@ -25,6 +25,7 @@ Academy lab environments.
 | 10 | User ID Controlled by Request Parameter with Password Disclosure | ✅ Completed |
 | 11 | Username Enumeration via Different Responses | ✅ Completed |
 | 12 | 2FA Simple Bypass | ✅ Completed |
+| 13 | SSRF Against the Server | ✅ Completed |
 
 ## Tools Used
 
