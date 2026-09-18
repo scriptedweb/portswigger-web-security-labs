@@ -26,6 +26,7 @@ Academy lab environments.
 | 11 | Username Enumeration via Different Responses | ✅ Completed |
 | 12 | 2FA Simple Bypass | ✅ Completed |
 | 13 | SSRF Against the Server | ✅ Completed |
+| 14 | SSRF against another back-end system  | ✅ Completed |
 
 ## Tools Used
 
