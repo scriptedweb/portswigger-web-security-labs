@@ -27,6 +27,7 @@ Academy lab environments.
 | 12 | 2FA Simple Bypass | ✅ Completed |
 | 13 | SSRF Against the Server | ✅ Completed |
 | 14 | SSRF against another back-end system  | ✅ Completed |
+| 15 | Remote Code Execution via Web Shell Upload | ✅ Completed |
 
 ## Tools Used
 
