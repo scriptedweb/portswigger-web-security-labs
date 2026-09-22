@@ -30,6 +30,7 @@ Academy lab environments.
 | 15 | Remote Code Execution via Web Shell Upload | ✅ Completed |
 | 16 | OS Command Injection | ✅ Completed |
 | 17 | SQL Injection Vulnerability in WHERE Clause Allowing Retrieval of Hidden Data | ✅ Completed |
+| 18 | SQL injection vulnerability allowing login bypass | ✅ Completed |
 
 ## Tools Used
 
