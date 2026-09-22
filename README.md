@@ -29,6 +29,7 @@ Academy lab environments.
 | 14 | SSRF against another back-end system  | ✅ Completed |
 | 15 | Remote Code Execution via Web Shell Upload | ✅ Completed |
 | 16 | OS Command Injection | ✅ Completed |
+| 17 | SQL Injection Vulnerability in WHERE Clause Allowing Retrieval of Hidden Data | ✅ Completed |
 
 ## Tools Used
 
