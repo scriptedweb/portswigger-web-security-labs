@@ -1,4 +1,4 @@
-## SQL Injection UNION Attack — Determining the Number of Columns
+# SQL Injection UNION Attack — Determining the Number of Columns
 # Overview
 
 This PortSwigger Web Security Academy lab focused on determining the number of columns returned by a vulnerable SQL query before performing a UNION-based SQL injection.
@@ -58,7 +58,7 @@ I now understand that they are two different techniques for determining the numb
 
 Once the number of columns is known, a UNION query can be constructed with the same number of columns.
 
-## Memory Trick 🧠
+# Memory Trick 🧠
 
 # COUNT → MATCH → UNION
 
@@ -70,7 +70,8 @@ PortSwigger Web Security Academy
 Burp Suite
 SQL Injection
 UNION-based SQL Injection
-Conclusion
+
+## Conclusion
 
 This lab helped me understand an important prerequisite of UNION-based SQL injection: the injected SELECT must return the same number of columns as the original query.
 
