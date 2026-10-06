@@ -32,6 +32,7 @@ Academy lab environments.
 | 17 | SQL Injection Vulnerability in WHERE Clause Allowing Retrieval of Hidden Data | ✅ Completed |
 | 18 | SQL injection vulnerability allowing login bypass | ✅ Completed |
 | 19 | SQL injection UNION attack, determining the number of columns returned by the query | ✅ Completed |
+| 20 | SQL Injection UNION Attack — Retrieving Data from Other Tables | ✅ Completed |
 
 ## Tools Used
 
