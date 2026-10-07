@@ -33,6 +33,7 @@ Academy lab environments.
 | 18 | SQL injection vulnerability allowing login bypass | ✅ Completed |
 | 19 | SQL injection UNION attack, determining the number of columns returned by the query | ✅ Completed |
 | 20 | SQL Injection UNION Attack — Retrieving Data from Other Tables | ✅ Completed |
+| 20 | SQL Injection UNION Attack — Retrieving Multiple Values in a Single Column | ✅ Completed |
 
 ## Tools Used
 
